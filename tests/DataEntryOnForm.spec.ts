@@ -15,3 +15,8 @@ await dataEntryForm.enterEmail(testdata.email);
 
 
 })
+test("Fill ",async({page})=>{
+const dataEntryForm=new DataEntryForm(page);
+await dataEntryForm.enterUserName(testdata.username);
+
+})
