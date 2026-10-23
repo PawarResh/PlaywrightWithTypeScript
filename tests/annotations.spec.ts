@@ -1,7 +1,7 @@
 import{test,expect,Browser} from "@playwright/test";
 
 
-test.only("Test 1",async ({page})=>{
+test("Test 1",async ({page})=>{
 console.log("Test 1");
 })
 /*test.skip(browserName=="Chrome","Test 2",async ({page})=>{
