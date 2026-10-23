@@ -17,7 +17,7 @@ const na:string =await textBox.inputValue();
 await expect(na).toBe("Reshma");
 
 })
-test.only("redio buttons",async({page})=>{
+test("redio buttons",async({page})=>{
 
 await page.goto("https://testautomationpractice.blogspot.com/");
   const radio:Locator=page.locator("#male");
